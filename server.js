@@ -15,7 +15,7 @@ const io = new Server(server,{cors: {
 const PORT = process.env.PORT || 3001;
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://rammeharchahar123:FrgE5TTXWvI1ug7V@instagramcluster.x8sz1gz.mongodb.net/?retryWrites=true&w=majority&appName=InstagramCluster', {
+mongoose.connect('mongodb+srv://testUser1:Rammehar12345@instagramcluster.x8sz1gz.mongodb.net/?retryWrites=true&w=majority&appName=InstagramCluster', {
   useNewUrlParser: true,
 });
 
